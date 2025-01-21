@@ -11,6 +11,27 @@ This project focuses on analyzing financial data and predicting stock market tre
 - `reports/`: Generated analysis reports and visualizations.
 - `README.md`: Project documentation.
 
+Create the structure with the following commands
+
+For Ubuntu
+```
+mkdir -p project/{data,notebooks,src,models,reports,config,scripts,logs} &&
+touch project/{README.md,config/api_keys.yaml,config/params.json,scripts/fetch_data.py,scripts/train_model.py,logs/training.log}
+```
+
+For Windows
+```
+mkdir project; cd project;
+mkdir data, notebooks, src, models, reports, config, scripts, logs;
+New-Item README.md -ItemType File;
+New-Item config\api_keys.yaml -ItemType File;
+New-Item config\params.json -ItemType File;
+New-Item scripts\fetch_data.py -ItemType File;
+New-Item scripts\train_model.py -ItemType File;
+New-Item logs\training.log -ItemType File;
+
+```
+
 ## Setup
 
 To set up the project, follow these steps:
